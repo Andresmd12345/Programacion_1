@@ -2,16 +2,57 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Intro with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Libro libro1 = new Libro();
+        libro1.setNombre("Calculo diferencial");
+        libro1.setGenero("Matematicas");
+        libro1.setAutor("carlos perez");
+        libro1.setAnioPublicacion(2000);
+        libro1.setEditorial("Universidad Quindio");
+        libro1.setNumeroPagina(200);
 
-        // Press Mayús+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        Libro libro2 = new Libro();
+        libro2.setNombre("Matematicas Generales");
+        libro2.setGenero("Matematicas");
+        libro2.setAutor("Marcos moreno");
+        libro2.setAnioPublicacion(2008);
+        libro2.setEditorial("Universidad Quindio");
+        libro2.setNumeroPagina(189);
 
-            // Press Mayús+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        Libro libro3 = new Libro();
+        libro3.setNombre("Pensamiento Sistemico");
+        libro3.setGenero("Ingenieria");
+        libro3.setAutor("Faber Guzman");
+        libro3.setAnioPublicacion(2008);
+        libro3.setEditorial("Universidad Quindio");
+        libro3.setNumeroPagina(150);
+
+        Libro libro4 = new Libro();
+        libro4.setNombre("Programacion 1");
+        libro4.setGenero("Desarrollo web");
+        libro4.setAutor("juan jose sanchez");
+        libro4.setAnioPublicacion(1995);
+        libro4.setEditorial("Universidad Quindio");
+        libro4.setNumeroPagina(280);
+
+        Libro libro5 = new Libro();
+        libro5.setNombre("Algebra Lineal");
+        libro5.setGenero("Matematicas");
+        libro5.setAutor("Marta diaz");
+        libro5.setAnioPublicacion(1990);
+        libro5.setEditorial("Universidad Quindio");
+        libro5.setNumeroPagina(90);
+
+
+
     }
+
+
+
+
+
+
+
+
+
 }
+
